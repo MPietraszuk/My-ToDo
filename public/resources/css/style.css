@@ -5,6 +5,12 @@ body {
   padding: 80px 0 0 0;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body,
 input,
 button {
@@ -104,11 +110,16 @@ header button svg {
 header button svg .fill {
   fill: #25b99a;
 }
-
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 50px;
+}
 .container {
   width: 100%;
   float: left;
+  min-height: 100%;
   padding: 15px;
+  margin: 0 auto -50px;
 }
 
 ul.todo {
@@ -258,4 +269,16 @@ ul.todo#completed:after {
   text-align: center;
   font-size: 12px;
   color: #aaa;
+}
+
+/* Footer */
+.color {
+  color: #e25555;
+}
+footer p {
+  font-family: 'Roboto', sans-serif;
+}
+footer {
+  height: 50px;
+  padding-left: 10px;
 }
