@@ -2,6 +2,8 @@
 
 ## A simple todo list app built in HTML, CSS and Vanilla JavaScript
 
+<http://my-todo.markpietraszuk.com>
+
 Using local storage API.
 Moving task back and forth from ToDo List to Completed List.
 Deleting the task.
